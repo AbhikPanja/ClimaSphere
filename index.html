@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimaSphere</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Weather Live</h1>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="cityInput" placeholder="Enter City Name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="weather-info">
+            <h2 class="city-name" id="cityName">City Name</h2>
+            <div class="weather-details">
+                <div class="temperature" id="temperature">--°C</div>
+                <div class="other-info">
+                    <p id="description">Weather Description</p>
+                    <p id="humidity">Humidity: --%</p>
+                    <p id="wind-speed">Wind Speed: -- km/h</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Powered by OpenWeather</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
